@@ -2,6 +2,7 @@ import SM31
 import random
 import string
 import math
+import time
 from collections import Counter
 
 Bits_len=32
@@ -117,9 +118,9 @@ def brithAttack():
     coincide = dict(Counter(list_r_value))
     print ([key for key,value in coincide.items()if value > 1])
 
-
+t1=time.time()
 brithAttack()
-
+print(time.time()-t1)
 
 
 
