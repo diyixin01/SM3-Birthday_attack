@@ -56,8 +56,7 @@ main函数通过产生随机数字，作为字符串string计算hash值，然后
 
 
 
-![Uploading image.png…]()
-
+![image](https://user-images.githubusercontent.com/75195549/180797870-1f554189-441f-4b1c-b3cc-0455bb7abe6f.png)
 
 
 这符合我们的预期
