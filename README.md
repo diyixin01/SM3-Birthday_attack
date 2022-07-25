@@ -16,14 +16,30 @@
 
 
 # 代码说明
-使用SM3(string input_str)直接打印出Hash值，也可以用SM3(string input_str,unsigned char* ouput)来获取hash值。main函数通过产生随机数字，作为字符串string计算hash值，然后通过Pollard_Rho方法，找到碰撞原像，碰撞的bit长度通过全局变量定义。
+使用SM3(string input_str)直接打印出Hash值，也可以用SM3(string input_str,unsigned char* ouput)来获取hash值。
+
+
+
+![image](https://user-images.githubusercontent.com/75195549/180794501-77883cf6-6676-474d-bfc0-0f5461d234a0.png)
+
+
+
+
+main函数通过产生随机数字，作为字符串string计算hash值，然后通过Pollard_Rho方法，找到碰撞原像，碰撞的bit长度通过全局变量定义。
+
+
+
+
+![image](https://user-images.githubusercontent.com/75195549/180794437-33e5c7b8-d297-4a5f-bcdc-13f8ca911387.png)
+
+
 
 
 代码运行如下图所示
 
 
 
-![image](https://user-images.githubusercontent.com/75195549/179918529-c44d32d9-4970-40cf-917b-a114df111016.png)
+
 
 
 
