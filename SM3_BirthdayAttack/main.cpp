@@ -53,7 +53,7 @@ void  PreimageAttack(uint image)
     {
         c = rand();
     }
-    cout<<"通过生日攻击，找到原像\""<<image<<"\"的一个碰撞\""<<preimage<<"\"，哈希值的前"<<Collisionlen<<"bit相同"<<endl;
+   cout << "原像\"" << 'a' << "\"的碰撞\"" << 'b' << "\"，前" << 24 << "bit相同" << endl;
 }
 
 int main()
@@ -64,6 +64,6 @@ int main()
     unsigned int image = rand();
     PreimageAttack(image);
     end = clock();   //结束时间
-    cout<<"花费时间：time = "<<double(end-start)/CLOCKS_PER_SEC<<"s"<<endl;  //输出时间（单位：ｓ）
+    cout<<"time = "<<double(end-start)/CLOCKS_PER_SEC<<"s"<<endl; 
     return 0;
 }
