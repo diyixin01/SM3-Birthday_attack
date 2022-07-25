@@ -7,6 +7,11 @@
 ​ 我们可以任取两个消息m1，m2，计算h=SM3(abs(M1-M2)，直到得到H= h
 
 
+# 误差分析
+
+![image](https://user-images.githubusercontent.com/75195549/180791517-d01d0faf-11b0-4686-b50e-6ec47c7caf0b.png)
+
+
 代码运行如下图所示
 
 
