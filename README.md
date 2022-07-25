@@ -35,11 +35,6 @@ main函数通过产生随机数字，作为字符串string计算hash值，然后
 
 
 
-代码运行如下图所示
-
-
-
-
 
 
 
@@ -48,7 +43,22 @@ main函数通过产生随机数字，作为字符串string计算hash值，然后
 
 16bit的原像碰撞很快
 
-​ 20bit速度也比较快
+
+
+
+![image](https://user-images.githubusercontent.com/75195549/180797311-4016feb0-4de4-441b-8c4d-09de5e402368.png)
+
+
+
 
 ​ 24bit明显变慢
+
+
+
+
+![Uploading image.png…]()
+
+
+
+这符合我们的预期
 
