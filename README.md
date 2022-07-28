@@ -16,6 +16,31 @@
 
 
 # 代码说明
+
+# int cmphash(unsigned char* H1,unsigned char* H2,int Len)    
+因为我们只比较前几个bit，因为大端序的问题，这些比特是倒着存放的，进行处理
+
+
+![image](https://user-images.githubusercontent.com/75195549/181441347-b88cf68a-bd98-444e-b13b-f8eb4c1995ca.png)
+
+
+
+# int Pollard_Rho(uint image,unsigned char* H,uint c,uint* preiamge) 
+经典的pollard rho算法，使用平方加c的方式进行套圈
+
+
+![image](https://user-images.githubusercontent.com/75195549/181441549-a1ef1c17-0d7d-438d-a35e-127c42f9c7bc.png)
+
+
+
+# void  PreimageAttack(uint image)
+进行碰撞攻击
+
+
+![image](https://user-images.githubusercontent.com/75195549/181441654-3261944d-6567-4626-a53a-db2d976b600d.png)
+
+
+
 使用SM3(string input_str)直接打印出Hash值，也可以用SM3(string input_str,unsigned char* ouput)来获取hash值。
 
 
